@@ -13,6 +13,9 @@ firebase.initializeApp(firebaseConfig);
 
 export const db = firebase.firestore();
 
+import store from '@/store';
+require('./config/vuetify');
+
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
@@ -20,6 +23,7 @@ new Vue({
   el: '#app',
   router,
   i18n,
+  store,
   components: { App },
   template: '<App/>'
 })
