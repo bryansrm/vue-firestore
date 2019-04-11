@@ -4,6 +4,5 @@ export default {
     databaseURL: "https://vue-firestore-45f58.firebaseio.com",
     projectId: "vue-firestore-45f58",
     storageBucket: "vue-firestore-45f58.appspot.com",
-    messagingSenderId: "901511878271",
-    prueba: 'hola'
+    messagingSenderId: "901511878271"
 };
